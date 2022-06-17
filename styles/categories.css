@@ -1,0 +1,19 @@
+#categories1,#categories2{
+    margin-top: 30px;
+    width: 80%;
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+    margin-left: 150px;
+    font-family: sans-serif;
+}
+#categories1 a,#categories2 a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000B3;
+    font-size: 14px;
+}
+#categories1 a:hover, #categories2 a:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,56 @@
+#container{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,30%);
+    gap: 20px;
+    margin-left: 110px;
+}
+.fruit_div{
+    /* border: 1px solid red; */
+    text-align: center;
+}
+.fruit_div img{
+    width: 90%;
+    height: 380px;
+    border-radius: 20px;
+   
+}
+.title_para{
+    font-size: 19px;
+}
+.price_para{
+    font-size: 22px;
+    color: red;
+} 
+html,body{
+    padding:0;
+    margin:0;
+}
+#container > div >div{
+    transition:transform 0.5s;
+}
+#container > div> div:hover .cart-btn{
+    opacity:1;
+}
+#container > div> div:hover{
+    transform:scale(1.05);
+}
+.img-div{
+    position: relative;
+}
+
+.cart-btn{
+    position: sticky;
+    margin-top:-10em;
+    width:90%;
+    background-color: green; 
+    color:white;
+    border:none;
+    font-size:15px;
+    padding:15px 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+    opacity:0;
+    transition:opacity 0.5s ease-out
+}

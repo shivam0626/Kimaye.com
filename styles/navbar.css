@@ -1,0 +1,219 @@
+#shop a,#nav1 a,#learn a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+}
+#user-icon{
+    border:none;
+}
+#top_div{
+    /* margin: -16px 0px 0px -8px; */
+    width: 100%;
+    padding:10px 20px;
+    background-color: #437111;
+}
+.top_para{
+    margin:0;
+    color:#fff;
+    text-align: center;
+    font-family: sans-serif;
+}
+#navbar{
+    display: flex;
+    justify-content: space-around;
+     padding: 20px;
+    width: 100%;  
+    /* margin-left: -15px;  */
+    background-color: rgb(240, 238, 238);
+}
+#navbar div{
+    display: flex;
+    align-items: center;
+}
+#nav1{
+    gap: 30px;
+}
+#navlogo{
+    height: 40px;
+}
+#nav3{
+    gap: 25px;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+#shop{
+    display: none;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0);
+    width: 100%;
+    font-size: 14px;
+    z-index: 1000;
+}
+#shop1{
+    margin-top: -30px;
+    margin-left: 120px;
+    width: min-content;
+    background-color: white;
+    padding: 0px 60px 0px 20px;
+    font-size: 14px;
+    font-family: sans-serif;
+    z-index: 1000;
+}
+#learn{
+    display: none;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0);
+    width: 100%;
+    font-size: 14px;
+    z-index: 1000;
+}
+#learn1{
+    margin-top: -30px;
+    margin-left: 180px;
+    width: min-content;
+    background-color: white;
+    padding: 0px 60px 0px 20px;
+    font-family: sans-serif;
+    font-size: 14px;
+    z-index: 1000;
+}
+#user-icon:hover{
+    cursor: pointer;
+}
+
+#nav-close{
+    position:absolute;
+    top:20px;
+    right:20px;
+    color: #fff;
+}
+#nav-close:hover{
+    cursor: pointer;
+}
+
+.auth>div{
+    height:100vh;
+    width:0%;
+    background-color: antiquewhite;
+    color:black;
+    position: fixed;
+    right:0;
+    top:0;
+    overflow:hidden;
+    transition: width 0.5s;
+    z-index:999;
+}
+.auth>div.active{
+    height:100vh;
+    width:50vh;
+    background-color: antiquewhite;
+    color:black;
+    position: fixed;
+    right:0;
+    top:0;
+    margin-right:0;
+    transition: width 0.5s;
+    z-index:999;
+}
+.content{
+    font-family: sans-serif;
+    display:none;
+}
+.content>h3{
+    color: #fff;
+    background-color: black;
+    padding: 20px;
+    margin-top: 0;
+}
+.content>form >label{
+    font-size: 18px;
+    margin-left: 30px;
+}
+.content> form>input{
+    height: 30px;
+    width: 250px;
+    margin-left: 30px;
+    outline: none;
+}
+.forgot{
+    margin-left: 30px;
+}
+#login-btn{
+    width: 255px;
+    margin-left: 30px;
+    height: 35px;
+    border: 2px solid black;
+    margin-bottom: 30px;
+}
+.content > a{
+    text-decoration: none;
+    margin-left: 30px;
+    color: black;
+    font-size: 18px;
+}
+.content >h5{
+    text-align: center;
+}
+.desc{
+    margin-left: 20px;
+    text-align: center;
+}
+#create-acc{
+    width: 255px;
+    margin-left: 30px;
+    height: 35px;
+    border: 2px solid black;
+    margin-bottom: 30px;
+}
+.logactive{
+    display: block;
+}
+.reg{
+    display:none;
+}
+
+.regactive{
+    display: block;
+    font-family: sans-serif;
+}
+
+.bi-arrow-left{
+    position:absolute;
+    top:20px;
+    left:20px;
+    color: rgb(0, 0, 0);
+}
+.bi-arrow-left:hover{
+    cursor:pointer;
+}
+.regactive > h3{
+    color: #fff;
+    background-color: black;
+    padding: 20px;
+    margin-top: 0;
+}
+.regactive >form >label{
+    font-size: 18px;
+    margin-left: 30px;
+}
+.regactive >form > input{
+    height: 30px;
+    width: 250px;
+    margin-left: 30px;
+    outline: none;
+}
+#reg-btn{
+    width: 255px;
+    margin-left: 30px;
+    height: 35px;
+    border: 2px solid black;
+    margin-bottom: 30px;
+}
+.regactive >h5{
+    text-align: center;
+}
+.desc1{
+    margin-left: 20px;
+    text-align: center;
+}
+

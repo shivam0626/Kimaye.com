@@ -1,0 +1,77 @@
+#heading1{
+    text-align: center;
+}
+.leaf{
+    margin-right: 350px;
+    width: 60px;
+    margin-bottom: -20px;
+}
+.head-contents{
+    line-height: 0px;
+    font-size: 55px;
+    font-family: 'Caveat Brush', cursive;
+}
+.head-details{
+    font-family: sans-serif;
+    font-size: 26px;
+    font-weight: lighter;
+}
+#recommend-box{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    gap: 5px;
+}
+#box-div{
+    /* border: 1px solid red; */
+    width: 540px;
+    text-align: center;
+    margin-left: 60px;
+    padding: 25px;
+}
+#box-div h1{
+    font-family: 'Caveat Brush', cursive;
+    font-size: 40px;
+    line-height: 0px;
+}
+#box-div img{
+    width: 100%;
+    border-radius: 25px;
+}
+#box-div p{
+    font-family: sans-serif;
+}
+.shop-btn{
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: none;
+    background-color: #CD171F;
+    color: white;
+    font-size: 14px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+#insta-head{
+    text-align: center;
+}
+.i-head{
+    font-family:  'Caveat Brush', cursive ;
+    font-size: 50px;
+    line-height: 0px;
+}
+#insta-head p{
+    font-family: sans-serif;
+    font-size: 22px;
+    
+}
+#insta-img{
+    display: grid;
+    grid-template-columns: repeat(4,22%);
+    /* gap: 10px; */
+    margin: 40px 0px 50px 130px;
+}   
+#insta-img img{
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+}
+
