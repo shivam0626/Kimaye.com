@@ -221,9 +221,4 @@ let addToCart = (el) =>{
     alert("item added to cart");
     localStorage.setItem("kimaye-cart",JSON.stringify(data));
 
-    // let x = JSON.parse(localStorage.getItem("cart")) || [];
-    // if(x.length===1){
-    //     window.location.reload();
-    // }
-    // document.getElementById("cart-item").innerText = x.length;
 }

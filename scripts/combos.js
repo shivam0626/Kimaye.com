@@ -114,3 +114,11 @@ let appendData = (data) => {
     });
 };
 appendData(comboData);
+
+let addToCart = (el) =>{
+    data.push(el);
+    console.log(data);
+    alert("item added to cart");
+    localStorage.setItem("kimaye-cart",JSON.stringify(data));
+
+}
