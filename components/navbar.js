@@ -17,15 +17,15 @@ let navbar =()=>{
         <p id="navlocation">Mumbai</p>
         <a href=""><img src="./logos/search_50px.png" style="height: 25px ;width:25px;"></a>
         <button id="user-icon"><img src="./logos/user_50px.png" style="height: 25px ;width:25px;"></button>
-        <a href="../cart.html" id="cart-item"><img src="./logos/shopping_bag_50px.png"style="height: 25px ;width:25px;"></a>
+        <a href="cart.html" id="cart-item"><img src="./logos/shopping_bag_50px.png"style="height: 25px ;width:25px;"></a>
     </div>
 </div>
 <div id="shop">
     <div id="shop1">
-        <p><a href="../allfruit.html">all fruits</a></p>
-        <p><a href="../fresh.html">fresh cuts</a></p>
-        <p><a href="../combos.html">fruits combos</a></p>
-        <p><a href="../gifts.html">gifts by kimaye</a></p>
+        <p><a href="allfruit.html">all fruits</a></p>
+        <p><a href="fresh.html">fresh cuts</a></p>
+        <p><a href="combos.html">fruits combos</a></p>
+        <p><a href="gifts.html">gifts by kimaye</a></p>
         <p><a href="">grapes family by kimaye</a></p>
         <p><a href="">return and replacement</a></p>
         <p><a href="">fruits x subscription</a></p>

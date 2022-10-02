@@ -96,7 +96,7 @@ let login = (event) =>{
           if(check){
               alert("Login Successfull");
               localStorage.setItem("sign",JSON.stringify("My Account"))
-              window.location.href = "index.html";
+              window.location.href = "../index.html";
           }
           else{
               alert("Login Failed! Invalid Credentials");

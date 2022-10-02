@@ -43,16 +43,16 @@ let appendData = (data) =>{
         btn.innerText = "Shop Now";
         btn.setAttribute("class","shop-btn");
         if(el.title==="ALL FRUITS"){
-            btn.href = "../allfruit.html";
+            btn.href = "./allfruit.html";
         }
         else if(el.title==="FRESH CUTS"){
-            btn.href = "../fresh.html";
+            btn.href = "./fresh.html";
         }
         else if(el.title==="FRUIT COMBOS"){
-            btn.href ="../combos.html";
+            btn.href ="./combos.html";
         }
         else if(el.title ==="GIFTS BY KIMAYE"){
-            btn.href = "../gifts.html";
+            btn.href = "./gifts.html";
         }
     
         box.append(image,name,description,btn);
